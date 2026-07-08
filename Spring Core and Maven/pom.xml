@@ -5,22 +5,19 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.library</groupId>
-    <artifactId>library-management</artifactId>
+    <artifactId>library-management-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.version>5.3.29</spring.version>
-    </properties>
-
-    <dependencies>
-        <!-- Spring Context (includes spring-core, spring-beans, spring-expression, spring-aop) -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-    </dependencies>
+    <modules>
+        <module>Exercise 1: Configuring a Basic Spring Application</module>
+        <module>Exercise 2: Implementing Dependency Injection</module>
+        <module>Exercise 3: Implementing Logging with Spring AOP</module>
+        <module>Exercise 4: Creating and Configuring a Maven Project</module>
+        <module>Exercise 5: Configuring the Spring IoC Container</module>
+        <module>Exercise 6: Configuring Beans with Annotations</module>
+        <module>Exercise 7: Implementing Constructor and Setter Injection</module>
+        <module>Exercise 8: Implementing Basic AOP with Spring</module>
+        <module>Exercise 9: Creating a Spring Boot Application</module>
+    </modules>
 </project>
